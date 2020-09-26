@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <!-- group表示一个组，android:checkableBehavior="single"表示组中的所有菜单项只能单选 -->
+        <item
+            android:id="@+id/item_cgl1"
+            android:title="grape"
+            android:icon="@drawable/grape"/>
+        <item
+            android:id="@+id/item_cgl2"
+            android:title="orange"
+            android:icon="@drawable/orange"/>
+        <item
+            android:id="@+id/item_cgl3"
+            android:title="pear"
+            android:icon="@drawable/pear"/>
+        <item
+            android:id="@+id/item_cgl4"
+            android:title="watemelon"
+            android:icon="@drawable/watemelon"/>
+    </group>
+
+
+</menu>
